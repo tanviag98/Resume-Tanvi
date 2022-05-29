@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    font-size: 30px;
+    font-family: sans-serif;
+
+
+}
+
+#body-header{
+    height: 65vh;
+    background-image: url(macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: turquoise;
+}
+.horizontal-list li{
+display: inline-block;
+margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid white;
+    transition: color 5s;
+}
+
