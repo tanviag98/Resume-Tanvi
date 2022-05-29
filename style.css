@@ -21,6 +21,7 @@ body{
     color: aliceblue;
     text-align: center;
     text-shadow: turquoise;
+    font-size: 20px;
 }
 .horizontal-list li{
 display: inline-block;
@@ -38,10 +39,24 @@ margin: 0px 8px 8px 0px;
     transition: color 5s;
 }
 
+#container{
+    margin-top: 20vh;
+}
+
 #my-name{
     font-size:2rem;
     letter-spacing: 0.1rem;
     color: white;
     text-align: center;
     margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+
+}
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196);
+    
 }
